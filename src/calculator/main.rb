@@ -18,9 +18,9 @@ def subtraction(first_number, second_number)
 end
 
 puts 'First number:'
-first_number = gets.chomp.to_i
+first_number = gets.chomp.to_f
 puts 'Second number:'
-second_number = gets.chomp.to_i
+second_number = gets.chomp.to_f
 puts 'Operation:'
 operation = gets.chomp
 
@@ -33,5 +33,5 @@ elsif operation == '+'
 elsif operation == '-'
   puts subtraction(first_number, second_number)
 else
-  puts 'Are you idiot?'
+  puts 'Are you an idiot?'
 end
